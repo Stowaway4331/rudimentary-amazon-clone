@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/rudimentary-amazon-clone/static/js/main.a74cb8bf.js",
+    "index.html": "/rudimentary-amazon-clone/index.html",
+    "main.a74cb8bf.js.map": "/rudimentary-amazon-clone/static/js/main.a74cb8bf.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.a74cb8bf.js"
+  ]
+}
