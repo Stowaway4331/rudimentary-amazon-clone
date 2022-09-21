@@ -1,67 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>amazone-clone</title>
-    <!-- Font Awsome CDN -->
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
-    <!--X- Font Awsome CDN -X-->
+import React from "react";
+import Book from "./Book";
 
-    <!-- External Style Sheet -->
-    <link rel="stylesheet" href="styles.css" />
-    <!--X- External Style Sheet -X-->
-  </head>
-  <body>
-    <!-- Modile Responsive -->
-    <h2>Please Open In Desktop Mode</h2>
-    <!-- Modile Responsive -->
-
-    <!-- react code here -->
-    <div id="root"></div>
-    <script src="../src/index.js" type="text/JSX"></script>
-    <!-- react code here -->
-
-    <!-- Product -->
-    <!-- <div class="product">
+function Product() {
+  return (
+    <div class="product">
       <div class="product_row d-flex">
-        <div class="product_body">
-          <div class="product_description">
-            <p>
-              The Lean Startup: How Constant Innovation Creates Radically
-              Successful Businesses Paperback
-            </p>
-          </div>
-          <div class="product_price">
-            <p>&#8377; <span>500</span></p>
-          </div>
-          <ul class="rating d-flex">
-            <li>
-              <i class="fas fa-star"></i>
-            </li>
-            <li>
-              <i class="fas fa-star"></i>
-            </li>
-            <li>
-              <i class="fas fa-star"></i>
-            </li>
-            <li>
-              <i class="far fa-star"></i>
-            </li>
-          </ul>
-          <div class="product_img d-flex">
-            <img src="assets/product1.jpg" alt="" />
-          </div>
-          <div class="button-cart d-flex">
-            <a href="#"><button>Add To Busket</button></a>
-          </div>
-        </div>
+        <Book />
         <div class="product_body">
           <div class="product_description">
             <p>
@@ -70,7 +14,9 @@
             </p>
           </div>
           <div class="product_price">
-            <p>&#8377; <span>2000</span></p>
+            <p>
+              &#8377; <span>2000</span>
+            </p>
           </div>
           <ul class="rating d-flex">
             <li>
@@ -90,7 +36,9 @@
             <img src="assets/product2.jpg" alt="" />
           </div>
           <div class="button-cart d-flex">
-            <a href="#"><button>Add To Busket</button></a>
+            <a href="#">
+              <button>Add To Basket</button>
+            </a>
           </div>
         </div>
         <div class="product_body">
@@ -98,7 +46,9 @@
             <p>Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor</p>
           </div>
           <div class="product_price">
-            <p>&#8377; <span>2500</span></p>
+            <p>
+              &#8377; <span>2500</span>
+            </p>
           </div>
           <ul class="rating d-flex">
             <li>
@@ -118,7 +68,9 @@
             <img src="assets/product3.jpg" alt="" />
           </div>
           <div class="button-cart d-flex">
-            <a href="#"><button>Add To Busket</button></a>
+            <a href="#">
+              <button>Add To Basket</button>
+            </a>
           </div>
         </div>
       </div>
@@ -132,7 +84,9 @@
             </p>
           </div>
           <div class="product_price">
-            <p>&#8377; <span>3000</span></p>
+            <p>
+              &#8377; <span>3000</span>
+            </p>
           </div>
           <ul class="rating d-flex">
             <li>
@@ -152,7 +106,9 @@
             <img src="assets/product4.jpg" alt="" />
           </div>
           <div class="button-cart d-flex">
-            <a href="#"><button>Add To Busket</button></a>
+            <a href="#">
+              <button>Add To Basket</button>
+            </a>
           </div>
         </div>
         <div class="product_body">
@@ -163,7 +119,9 @@
             </p>
           </div>
           <div class="product_price">
-            <p>&#8377; <span>10000</span></p>
+            <p>
+              &#8377; <span>10000</span>
+            </p>
           </div>
           <ul class="rating d-flex">
             <li>
@@ -183,7 +141,9 @@
             <img src="assets/product5.jpg" alt="" />
           </div>
           <div class="button-cart d-flex">
-            <a href="#"><button>Add To Busket</button></a>
+            <a href="#">
+              <button>Add To Basket</button>
+            </a>
           </div>
         </div>
       </div>
@@ -196,7 +156,9 @@
             </p>
           </div>
           <div class="product_price">
-            <p>&#8377; <span>25099</span></p>
+            <p>
+              &#8377; <span>25099</span>
+            </p>
           </div>
           <ul class="rating d-flex">
             <li>
@@ -216,53 +178,14 @@
             <img src="assets/product6.jpg" alt="" />
           </div>
           <div class="button-cart d-flex">
-            <a href="#"><button>Add To Busket</button></a>
+            <a href="#">
+              <button>Add To Basket</button>
+            </a>
           </div>
         </div>
       </div>
-    </div> -->
-    <!--X- Product -X-->
-
-    <!-- Footer -->
-    <div class="footer">
-      <div class="footer_row d-flex">
-        <div class="logo">
-          <img src="assets/logo.png" alt="" />
-        </div>
-        <div class="pages">
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="contact">
-          <ul>
-            <li>
-              <a href="#"
-                ><i class="fas fa-map-marker-alt"></i>
-                <span>Bangalore, Karnataka</span></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><i class="fas fa-envelope-open-text"></i>
-                <span>example@gmail.com</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="developer">
-        <a href="#"> ~ <span>Jeremie Dsouza</span></a>
-      </div>
     </div>
-    <!--X- footer -X-->
-  </body>
-</html>
+  );
+}
+
+export default Product;
